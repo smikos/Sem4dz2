@@ -15,7 +15,8 @@ int r=0;
 int c=0;
 int sum = 0;
 int number = Prompt("Введите число");
-
+if ( number >9)
+{
 while (number>9)
 {
      c = c+(number%10);
@@ -27,6 +28,11 @@ while (number>9)
      } 
      
 
+}
+}
+else
+{
+    r = number;
 }
 
 Console.WriteLine (r);
